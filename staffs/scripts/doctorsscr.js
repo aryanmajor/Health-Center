@@ -1,0 +1,10 @@
+$(document).ready(function(){
+            $(".option").eq(1).click(function(){
+                $(".main_item").eq(0).addClass("hid");
+                $(".main_item").eq(1).removeClass("hid");
+            });
+            $(".option").eq(0).click(function(){
+                $(".main_item").eq(1).addClass("hid");
+                $(".main_item").eq(0).removeClass("hid");
+            });
+});
